@@ -1,0 +1,148 @@
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+:root {
+    --primary: #8D8DD6;
+    --secundary: #DDDDFB;
+    --black: #1C1C1B;
+    --grey: #3C3C3C;
+    
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: var(--secundary);
+    background-color: #ffffff;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #daabb5;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+
+.navbar ul li a{
+    color: var(--grey);
+}
+
+.menu-top{
+   background-color: var(--black);
+}
+
+.menu-top div {
+    justify-content: space-between;
+}
+.menu-derecha .navbar{
+    top: 30%;
+    position: fixed;
+    right: 2rem;
+}
+/*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
+
+#hero{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.9)), url('../img/hero.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    height: 300px;
+    height: 300px;
+  }
+  
+  /* appliquer un color au h1 et p #fff */
+  .display-4, .lead{
+    color: #fff;
+    text-align: center;
+  }
+
+@media	(max-width:	768px)	{
+    .miestilo	{
+            background-color:	red;
+    }
+}
+
+/*--------------------------------------------------------------
+# Sobre mi
+--------------------------------------------------------------*/
+#sobre-mi{
+
+}
+
+/*--------------------------------------------------------------
+# Experiencia
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Educación
+--------------------------------------------------------------*/
+#educacion{
+    background-color: rgb(255, 240, 219);
+}
+
+/*--------------------------------------------------------------
+# Habilidades
+--------------------------------------------------------------*/
+.bi-1-circle:before{
+    color: #441e5e;
+    font-size: 1rem;
+}
+
+.icon-si:before{
+    color: #441e5e;
+    font-size: 3rem;
+    font-weight:bold;
+    height: 5rem;
+    width: 1.5rem;
+}
+
+.icon-si svg{
+    color: #441e5e;
+    font-size: 3rem;
+    font-weight:bold;
+    height: 5rem;
+    width: 1.5rem;
+    padding-left: 0.5rem;
+    fill: #FF4745;
+    background-color: #eebd52;
+}
+
+.icon-no:before{
+    color: #868686;
+    font-size: 1rem;
+}
+
+.lista-iconos{
+    list-style-type: none;
+}
+
+/*--------------------------------------------------------------
+# Proyectos
+--------------------------------------------------------------*/
+#proyectos{
+    
+}
+
+/*--------------------------------------------------------------
+# Contacto
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer{
+    background-color: rgb(122, 54, 199);
+}
