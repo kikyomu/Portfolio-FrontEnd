@@ -39,6 +39,9 @@ body {
   ul li{
     list-style: none;
   }
+  ul {
+    padding: 0!important;
+  }
   
   h1, h2, h3, h4, h5, h6 {
     font-family: "Poppins", sans-serif!important;
@@ -255,45 +258,107 @@ form .btn-modal:hover,form .btn-modal:active{
 # Educación
 --------------------------------------------------------------*/
 #educacion{
-    background-color: rgb(255, 240, 219);
+    padding: 0 5rem;
 }
 
 /*--------------------------------------------------------------
 # Habilidades
 --------------------------------------------------------------*/
-.bi-1-circle:before{
-    color: #441e5e;
-    font-size: 1rem;
+#habilidades{
+    padding: 0 5rem;
 }
 
-.icon-si:before{
-    color: #441e5e;
-    font-size: 3rem;
-    font-weight:bold;
-    height: 5rem;
-    width: 1.5rem;
+.lista-items-habilidades li{
+   padding-right: 1rem;
 }
 
-.icon-si svg{
-    color: #441e5e;
-    font-size: 3rem;
-    font-weight:bold;
-    height: 5rem;
-    width: 1.5rem;
-    padding-left: 0.5rem;
-    fill: #FF4745;
-    background-color: #eebd52;
+.lista-items-habilidades{
+    flex-wrap: wrap;
+}
+.lista-items-habilidades i, .lista-items-habilidades-icon i{
+    color: var(--primary);
+    font-size: 0.6rem;
+    line-height: 2.3;
+    padding-right: 0.4rem;
+
+ }
+
+ .lista-items-habilidades-icon{
+    flex-wrap: wrap;
+
+}
+.lista-items-habilidades-icon li{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
-.icon-no:before{
-    color: #868686;
-    font-size: 1rem;
-}
 
-.lista-iconos{
-    list-style-type: none;
-}
 
+ /*-----Progress bar---*/
+
+ .circle_percent {
+    font-size:80px; 
+    width:1em; 
+    height:1em; 
+    position: relative; 
+    background: #eee; 
+    border-radius:50%; 
+    overflow:hidden; 
+    display:inline-block;   
+    margin: 0.6rem;
+ }
+ .circle_inner {
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 1em; 
+    height: 1em; 
+    clip:rect(0 1em 1em .5em);
+}
+ .round_per {
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 1em; 
+    height: 1em; 
+    background: var(--primary); 
+    clip:rect(0 1em 1em .5em); 
+    transform:rotate(180deg); 
+    transition:1.05s;}
+ .percent_more .circle_inner {
+    clip:rect(0 .5em 1em 0em);
+}
+ .percent_more:after {
+    position: absolute; 
+    left: .5em; top:0em; 
+    right: 0; 
+    bottom: 0; 
+    background: var(--primary); 
+    content:'';
+}
+ .circle_inbox {position: absolute; 
+    top: 8px; 
+    left: 8px; 
+    right: 8px; 
+    bottom: 8px; 
+    background: #fff; 
+    z-index:3; 
+    border-radius: 50%;}
+ .percent_text {
+    position: absolute; 
+    font-size: 36px; 
+    left: 50%; top: 50%; 
+    transform: translate(-50%,-50%); 
+    z-index: 3;     
+    display: none;
+ }
+ i.icono-habilidades{
+    top: 10%;
+    z-index: 4;
+    font-size: 2rem;
+    padding: 0;
+}
 /*--------------------------------------------------------------
 # Proyectos
 --------------------------------------------------------------*/
@@ -307,5 +372,10 @@ form .btn-modal:hover,form .btn-modal:active{
 --------------------------------------------------------------*/
 #footer{
     background-color: var(--primary);
-    color: #ffffff;
 }
+
+#footer p{
+    background-color: var(--primary);
+    color: #ffffff!important;
+}
+
