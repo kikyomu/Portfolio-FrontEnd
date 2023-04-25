@@ -225,7 +225,7 @@ form .btn-modal:hover,form .btn-modal:active{
 # Sobre mi
 --------------------------------------------------------------*/
 #sobre-mi{
-
+    padding: 4rem 0rem 7rem 0rem!important;
 }
 
 .btn-primary{
@@ -252,20 +252,23 @@ form .btn-modal:hover,form .btn-modal:active{
 # Experiencia
 --------------------------------------------------------------*/
 #experiencia-laboral{
-    padding: 0 5rem;
+    padding: 4rem 5rem!important;
+    background-color: #f6f6fd;
 }
 /*--------------------------------------------------------------
 # Educación
 --------------------------------------------------------------*/
 #educacion{
-    padding: 0 5rem;
+    padding: 4rem 5rem!important;
 }
 
 /*--------------------------------------------------------------
 # Habilidades
 --------------------------------------------------------------*/
 #habilidades{
-    padding: 0 5rem;
+    padding: 4rem 5rem!important;
+    background-color: #f6f6fd;
+
 }
 
 .lista-items-habilidades li{
@@ -362,10 +365,31 @@ form .btn-modal:hover,form .btn-modal:active{
 /*--------------------------------------------------------------
 # Proyectos
 --------------------------------------------------------------*/
+#proyectos{
+    padding: 4rem 5rem!important;
+}
 
-/*--------------------------------------------------------------
-# Contacto
---------------------------------------------------------------*/
+.img-proyecto .fecha{
+    bottom: 0;
+    right: 0.78rem;
+    background-color: #ffffff;
+    padding: 0.2rem 1rem 0rem 1rem;
+    flex-direction: row;
+    width: 150px;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 10px 0 0px 0;
+}
+.img-proyecto .fecha i{
+    width: 30px;
+    color: var(--primary);
+}
+
+.img-proyecto .fecha p{
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 0.6rem;
+}
 
 /*--------------------------------------------------------------
 # Footer
@@ -377,5 +401,7 @@ form .btn-modal:hover,form .btn-modal:active{
 #footer p{
     background-color: var(--primary);
     color: #ffffff!important;
+    margin: 0;
+    padding: 0;
 }
 
