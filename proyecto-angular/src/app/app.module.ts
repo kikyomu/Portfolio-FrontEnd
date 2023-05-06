@@ -9,6 +9,13 @@ import { ExperienciaLaboralComponent } from './components/experiencia-laboral/ex
 import { HabilidadesComponent } from './components/habilidades/habilidades.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
+import { BannerComponent } from './components/banner/banner.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { SkillsFrontEndComponent } from './components/skills-front-end/skills-front-end.component';
+import { SkillsBackEndComponent } from './components/skills-back-end/skills-back-end.component';
+import { SkillsHerramientasComponent } from './components/skills-herramientas/skills-herramientas.component';
+
 
 @NgModule({
   declarations: [
@@ -18,11 +25,36 @@ import { EducacionComponent } from './components/educacion/educacion.component';
     ExperienciaLaboralComponent,
     HabilidadesComponent,
     ProyectosComponent,
-    EducacionComponent
+    EducacionComponent,
+    BannerComponent,
+    FooterComponent,
+    SkillsFrontEndComponent,
+    SkillsBackEndComponent,
+    SkillsHerramientasComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    // Specify ng-circle-progress as an import
+    NgCircleProgressModule.forRoot({
+      // set defaults here
+      radius: 38,
+      space: -7,
+      outerStrokeWidth: 7,
+      innerStrokeWidth: 7,
+      outerStrokeColor: "#8D8DD6",
+      innerStrokeColor: "#e3e3e3",
+      animationDuration: 300,
+      animation: true,
+      showUnits: false,
+
+      backgroundPadding: 7,
+      /* imageSrc: "../assets/svg/html5.svg" */ 
+      showImage: true,
+      showBackground: false
+      
+    })
+
   ],
   providers: [],
   bootstrap: [AppComponent]

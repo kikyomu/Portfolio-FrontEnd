@@ -1,0 +1,107 @@
+ /*--------------------------------------------------------------
+# Habilidades
+--------------------------------------------------------------*/
+#habilidades{
+    padding: 4rem 5rem!important;
+    background-color: #f6f6fd;
+}
+
+.lista-items-habilidades li{
+   padding-right: 1rem;
+}
+
+.lista-items-habilidades{
+    flex-wrap: wrap;
+}
+
+.lista-items-habilidades i, .lista-items-habilidades-icon i{
+    color: var(--primary);
+    line-height: 4.4rem;
+ }
+
+ .lista-items-habilidades li i{
+    color: var(--primary);
+    line-height: 1;
+    padding-right: 0.4rem;
+ }
+
+ .lista-items-habilidades-icon{
+    flex-wrap: wrap;
+}
+
+.lista-items-habilidades-icon li{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+ /*-----Progress bar---*/
+
+ .circle_percent {
+    font-size:80px; 
+    width:1em; 
+    height:1em; 
+    position: relative; 
+    background: #eee; 
+    border-radius:50%; 
+    overflow:hidden; 
+    display:inline-block;   
+    margin: 0.6rem;
+ }
+
+ .circle_inner {
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 1em; 
+    height: 1em; 
+    clip:rect(0 1em 1em .5em);
+}
+
+ .round_per {
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    width: 1em; 
+    height: 1em; 
+    background: var(--primary); 
+    clip:rect(0 1em 1em .5em); 
+    transform:rotate(180deg); 
+    transition:1.05s;}
+
+ .percent_more .circle_inner {
+    clip:rect(0 .5em 1em 0em);
+}
+
+ .percent_more:after {
+    position: absolute; 
+    left: .5em; top:0em; 
+    right: 0; 
+    bottom: 0; 
+    background: var(--primary); 
+    content:'';
+}
+
+ .circle_inbox {position: absolute; 
+    top: 8px; 
+    left: 8px; 
+    right: 8px; 
+    bottom: 8px; 
+    background: #fff; 
+    z-index:3; 
+    border-radius: 50%;}
+ .percent_text {
+    position: absolute; 
+    font-size: 36px; 
+    left: 50%; top: 50%; 
+    transform: translate(-50%,-50%); 
+    z-index: 3;     
+    display: none;
+ }
+
+ i.icono-habilidades{
+    top: 10%;
+    z-index: 4;
+    font-size: 2rem;
+    padding: 0;
+}
