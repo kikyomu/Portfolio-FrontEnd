@@ -1,0 +1,47 @@
+/*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
+#hero{
+    margin: -4rem 0 0 0;
+}
+#hero .fondo-hero{
+   padding: 0!important;
+   width: 100vw;
+
+}
+
+#hero .fondo-hero svg.fondo-organico{
+    width: 100vw;
+    top: 0;
+    width: 100vw;
+    left: 0;  
+    z-index: -1;
+}
+.fondo-organico .cls-1{
+    fill: var(--primary); 
+}
+
+ #hero .fondo-hero svg.recursos-graficos-svg{
+    top: 25vw;
+    width: 88vw;
+    left: 1%;
+    z-index: -1;
+}
+
+#hero .hero-content-img{
+    margin: 6rem 0 0 0;
+}
+
+#hero .hero-content ul li h2{
+    color: #ffffff!important;
+    text-align: left;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 3rem;
+}
+
+#hero .hero-content-text{
+    height: 100vh;
+    margin: 10rem 0 0 -2rem;
+}
+

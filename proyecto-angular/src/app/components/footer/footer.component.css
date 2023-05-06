@@ -1,0 +1,14 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer{
+    background-color: var(--primary);
+}
+
+#footer p{
+    background-color: var(--primary);
+    color: #ffffff!important;
+    margin: 0;
+    padding: 0;
+}
+
