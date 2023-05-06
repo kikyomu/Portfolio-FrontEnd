@@ -1,0 +1,14 @@
+.lista-items-habilidades-icon{
+    flex-wrap: wrap;
+}
+
+.lista-items-habilidades-icon li{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-right: 1rem;
+}
+
+.lista-items-habilidades-icon li p{
+    margin-top: 0.5rem;
+ }
