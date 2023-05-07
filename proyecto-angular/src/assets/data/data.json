@@ -1,0 +1,276 @@
+{
+    
+    
+    "imgBanner": "../../assets/img/hero.png",
+    "name": "Gisella Eduviges Franco",
+    "edad": "29 años | ",
+    "ubicacion": " Buenos Aires, Argentina",
+    "imgPerfil": "../../assets/img/foto-perfil.png",
+    "titulo": "Diseñadora gráfica y Desarrolladora web",
+    "descripcion": "¡Hola! Soy Gisella y me dedico al Diseño Gráfico y Desarrollo Web. Me recibí en la carrera de Diseño Gráfico en la UBA en el año 2021 y desde entonces he estado especializándome de manera autodidacta en el mundo del Desarrollo Web. Actualmente, me enfoco en diseñar y maquetar sitios web utilizando HTML5, CSS3 y Bootstrap. Como diseñadora, me apasiona crear diseños visuales impactantes y asegurarme de que los sitios web con los que trabajo sean visualmente atractivos y accesibles en todo tipo de pantallas. Me encanta trabajar en equipo y estoy siempre en busca de nuevos desafíos que me permitan crecer profesionalmente.",
+    "cv": "#",
+
+    "experiencia": [{
+        "img": "#",
+        "anioFinalInicio": "2023 - 2022/02",
+        "posicionAndEmpresa": "Desarrollo web - TC Regional",
+        "descripcion": "Diseño y desarrollo de sitio web de noticias en Wordpress"
+    },
+
+    {
+        "img": "#",
+        "anioFinalInicio": "2022 - 07",
+        "posicionAndEmpresa": "Desarrollo web - Turismo 4000 Argentino",
+        "descripcion": "Diseño y desarrollo de sitio web de noticias en Wordpress"
+    },
+
+    {
+        "img": "#",
+        "anioFinalInicio": "2022 - 06",
+        "posicionAndEmpresa": "Desarrollo web - Plomería Ya",
+        "descripcion": "Rediseño y desarrollo de página web de servicios"
+    },
+
+    {
+        "img": "#",
+        "anioFinalInicio": "2022 - 02",
+        "posicionAndEmpresa": "Desarrollo web - HaeroSpray",
+        "descripcion": "Diseño y desarrollo de tienda online en Wordpress"
+    }
+
+    ],
+
+    "education": [{
+        "img": "#",
+        "careerAndSchool": "Desarrollo web Full Stack - Argentina programa",
+        "anioFinalInicio": "2023 - 2022",
+        "descripcion": "HTML5, CSS3, bootstrap, javaScript, Angular, Java, MySQL, Git, Github."
+    },
+
+    {
+        "img": "#",
+        "careerAndSchool": "Diseño gráfico - FADU, UBA",
+        "anioFinalInicio": "2021 - 2013",
+        "descripcion": "Diseño gráfico, diseño editorial, ilustración."
+    }
+
+    ],
+
+    "skills-hard": {
+        "skill1": "Diseño gráfico",
+        "skill2": "Ilustración digital y tradicional",
+        "skill3": "Diseño editorial",
+        "skill4": "Edición de videos"
+    },
+
+    "skills": {
+        
+
+    "front-end": [{
+        "percent": "90",
+        "imageHeight": "30",
+        "imageWidth": "26",
+        "imageSrc": "../../assets/svg/html5.svg",
+        "title": "HTML5"
+    },
+
+    {
+        "percent": "90",
+        "imageHeight": "30",
+        "imageWidth": "26",
+        "imageSrc": "../../assets/svg/css3.svg",
+        "title": "CSS3"
+    },
+
+    {
+        "percent": "40",
+        "imageHeight": "28",
+        "imageWidth": "28",
+        "imageSrc": "../../assets/svg/javascript.svg",
+        "title": "JavaScript"
+    },
+
+    {
+        "percent": "90",
+        "imageHeight": "28",
+        "imageWidth": "36",
+        "imageSrc": "../../assets/svg/bootstrap.svg",
+        "title": "Bootstrap"
+    },
+
+    {
+        "percent": "90",
+        "imageHeight": "30",
+        "imageWidth": "30",
+        "imageSrc": "../../assets/svg/wordpress.svg",
+        "title": "Wordpress"
+    },
+
+    {
+        "percent": "70",
+        "imageHeight": "30",
+        "imageWidth": "28",
+        "imageSrc": "../../assets/svg/angular.svg",
+        "title": "Angular"
+    }
+
+    ],
+
+
+    "back-end": [{
+        "icono": "../assets/svg/illustrator.svg",
+        "percent": "90",
+        "imageHeight": "30",
+        "imageWidth": "30",
+        "imageSrc": "",
+        "title": "Illustrator"
+    },
+
+    {
+        "icono": "../assets/svg/illustrator.svg",
+        "percent": "90",
+        "imageHeight": "30",
+        "imageWidth": "30",
+        "imageSrc": "",
+        "title": "Illustrator"
+    },
+
+    {
+        "icono": "../assets/svg/illustrator.svg",
+        "percent": "90",
+        "imageHeight": "30",
+        "imageWidth": "30",
+        "imageSrc": "",
+        "title": "Illustrator"
+    },
+
+    {
+        "icono": "../assets/svg/illustrator.svg",
+        "percent": "90",
+        "imageHeight": "30",
+        "imageWidth": "30",
+        "imageSrc": "",
+        "title": "Illustrator"
+    }
+
+    ],
+
+    "herramientas": [
+        {
+        "icono": "../assets/svg/illustrator.svg",
+        "percent": "90",
+        "imageHeight": "30",
+        "imageWidth": "30",
+        "imageSrc": "",
+        "title": "Illustrator"
+       },
+
+    {
+        "icono": "../assets/svg/illustrator.svg",
+        "percent": "90",
+        "imageHeight": "30",
+        "imageWidth": "30",
+        "imageSrc": "",
+        "title": "InDesign"
+    },
+
+    {
+        "icono": "../assets/svg/illustrator.svg",
+        "percent": "70",
+        "imageHeight": "30",
+        "imageWidth": "30",
+        "imageSrc": "",
+        "title": "Photoshop"
+    },
+
+    {
+        "icono": "../assets/svg/illustrator.svg",
+        "percent": "70",
+        "imageHeight": "30",
+        "imageWidth": "30",
+        "imageSrc": "",
+        "title": "After effects"
+    },
+    
+    {
+        "icono": "../assets/svg/illustrator.svg",
+        "percent": "70",
+        "imageHeight": "30",
+        "imageWidth": "22",
+        "imageSrc": "",
+        "title": "Figma"
+    },
+
+    {
+        "icono": "../assets/svg/illustrator.svg",
+        "percent": "90",
+        "imageHeight": "28",
+        "imageWidth": "30",
+        "imageSrc": "",
+        "title": "VS Code"
+    },
+
+    {
+        "icono": "../assets/svg/illustrator.svg",
+        "percent": "80",
+        "imageHeight": "26",
+        "imageWidth": "32",
+        "imageSrc": "",
+        "title": "Git"
+    },
+
+    {
+        "icono": "../assets/svg/illustrator.svg",
+        "percent": "80",
+        "imageHeight": "30",
+        "imageWidth": "30",
+        "imageSrc": "",
+        "title": "GitHub"
+    }
+
+    ]
+},
+
+    "skills-soft": {
+        "skill1": "Resolución de problemas",
+        "skill2": "Creatividad",
+        "skill3": "Trabajo en equipo",
+        "skill4": "Comunicación",
+        "skill5": "Gestión del tiempo",
+        "skill6": "Liderazgo"
+    },
+
+
+    "proyectos": [{
+        "img": "#",
+        "anioFinalInicio": "2023 - 2022/02",
+        "proyectoAndEmpresa": "Desarrollo web - TC Regional",
+        "descripcion": "Diseño y desarrollo de sitio web de noticias en Wordpress"
+    },
+
+    {
+        "img": "#",
+        "anioFinalInicio": "2023 - 2022/02",
+        "proyectoAndEmpresa": "Desarrollo web - TC Regional",
+        "descripcion": "Diseño y desarrollo de sitio web de noticias en Wordpress"
+    },
+
+    {
+        "img": "#",
+        "anioFinalInicio": "2023 - 2022/02",
+        "proyectoAndEmpresa": "Desarrollo web - TC Regional",
+        "descripcion": "Diseño y desarrollo de sitio web de noticias en Wordpress"
+    },
+
+    {
+        "img": "#",
+        "anioFinalInicio": "2023 - 2022/02",
+        "proyectoAndEmpresa": "Desarrollo web - TC Regional",
+        "descripcion": "Diseño y desarrollo de sitio web de noticias en Wordpress"
+    }
+
+    ]
+
+
+
+}
