@@ -15,6 +15,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkillsFrontEndComponent } from './components/skills-front-end/skills-front-end.component';
 import { SkillsBackEndComponent } from './components/skills-back-end/skills-back-end.component';
 import { SkillsHerramientasComponent } from './components/skills-herramientas/skills-herramientas.component';
+import { PortfolioService } from './servicios/portfolio.service';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -35,6 +37,7 @@ import { SkillsHerramientasComponent } from './components/skills-herramientas/sk
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     // Specify ng-circle-progress as an import
     NgCircleProgressModule.forRoot({
       // set defaults here
@@ -56,7 +59,7 @@ import { SkillsHerramientasComponent } from './components/skills-herramientas/sk
     })
 
   ],
-  providers: [],
+  providers: [PortfolioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

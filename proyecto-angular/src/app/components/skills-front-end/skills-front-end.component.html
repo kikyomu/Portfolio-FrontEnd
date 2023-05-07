@@ -1,63 +1,13 @@
 <ul class="lista-items-habilidades-icon d-flex">
 
-    <li class=" position-relative">
+    <li *ngFor="let skillsFront of skillsFrontList" class="position-relative">
         <circle-progress
-        [percent]="90"
-        [imageHeight]= "30"
-        [imageWidth]= "26"
-        imageSrc= '../assets/svg/html5.svg'
+        [percent]="skillsFront.percent"
+        [imageHeight]="skillsFront.imageHeight"
+        [imageWidth]="skillsFront.imageWidth"
+        [imageSrc]="skillsFront.imageSrc"
         ></circle-progress>
-        <p>HTML5</p>
-    </li>
-
-    <li class=" position-relative">
-        <circle-progress
-        [percent]="90"
-        [imageHeight]= "30"
-        [imageWidth]= "26"
-        imageSrc= '../assets/svg/css3.svg'
-        ></circle-progress>
-        <p>CSS3</p>
-    </li>
-
-    <li class=" position-relative">
-        <circle-progress
-        [percent]="40"
-        [imageHeight]= "28"
-        [imageWidth]= "28"
-        imageSrc= '../assets/svg/javascript.svg'
-        ></circle-progress>
-        <p>JavaScript</p>
-    </li>
-
-    <li class=" position-relative">
-        <circle-progress
-        [percent]="90"
-        [imageHeight]= "28"
-        [imageWidth]= "30"
-        imageSrc= '../assets/svg/bootstrap.svg'
-        ></circle-progress>
-        <p>Bootstrap</p>
-    </li>
-
-    <li class=" position-relative">
-        <circle-progress
-        [percent]="90"
-        [imageHeight]= "30"
-        [imageWidth]= "30"
-        imageSrc= '../assets/svg/wordpress.svg'
-        ></circle-progress>
-        <p>Wordpress</p>
-    </li>
-
-    <li class=" position-relative">
-        <circle-progress
-        [percent]="70"
-        [imageHeight]= "30"
-        [imageWidth]= "28"
-        imageSrc= '../assets/svg/angular.svg'
-        ></circle-progress>
-        <p>Angular</p>
+        <p>{{skillsFront.title}}</p>
     </li>
     
 </ul>
