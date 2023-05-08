@@ -2,6 +2,9 @@
     
     
     "imgBanner": "../../assets/img/hero.png",
+    "titulo1": "Diseño web",
+    "titulo2": "Diseño gráfico",
+    "titulo3": "Desarrollo web",
     "name": "Gisella Eduviges Franco",
     "edad": "29 años | ",
     "ubicacion": " Buenos Aires, Argentina",
@@ -11,28 +14,28 @@
     "cv": "#",
 
     "experiencia": [{
-        "img": "#",
+        "img": "../../assets/img/marcas-experiencia-laboral/tc-regional.png",
         "anioFinalInicio": "2023 - 2022/02",
         "posicionAndEmpresa": "Desarrollo web - TC Regional",
         "descripcion": "Diseño y desarrollo de sitio web de noticias en Wordpress"
     },
 
     {
-        "img": "#",
+        "img": "../../assets/img/marcas-experiencia-laboral/tc-regional.png",
         "anioFinalInicio": "2022 - 07",
         "posicionAndEmpresa": "Desarrollo web - Turismo 4000 Argentino",
         "descripcion": "Diseño y desarrollo de sitio web de noticias en Wordpress"
     },
 
     {
-        "img": "#",
+        "img": "../../assets/img/marcas-experiencia-laboral/tc-regional.png",
         "anioFinalInicio": "2022 - 06",
         "posicionAndEmpresa": "Desarrollo web - Plomería Ya",
         "descripcion": "Rediseño y desarrollo de página web de servicios"
     },
 
     {
-        "img": "#",
+        "img": "../../assets/img/marcas-experiencia-laboral/tc-regional.png",
         "anioFinalInicio": "2022 - 02",
         "posicionAndEmpresa": "Desarrollo web - HaeroSpray",
         "descripcion": "Diseño y desarrollo de tienda online en Wordpress"
@@ -40,28 +43,21 @@
 
     ],
 
-    "education": [{
-        "img": "#",
+    "educacion": [{
+        "img": "../../assets/img/marcas-experiencia-laboral/tc-regional.png",
         "careerAndSchool": "Desarrollo web Full Stack - Argentina programa",
         "anioFinalInicio": "2023 - 2022",
         "descripcion": "HTML5, CSS3, bootstrap, javaScript, Angular, Java, MySQL, Git, Github."
     },
 
     {
-        "img": "#",
+        "img": "../../assets/img/marcas-experiencia-laboral/tc-regional.png",
         "careerAndSchool": "Diseño gráfico - FADU, UBA",
         "anioFinalInicio": "2021 - 2013",
         "descripcion": "Diseño gráfico, diseño editorial, ilustración."
     }
 
     ],
-
-    "skills-hard": {
-        "skill1": "Diseño gráfico",
-        "skill2": "Ilustración digital y tradicional",
-        "skill3": "Diseño editorial",
-        "skill4": "Edición de videos"
-    },
 
     "skills": {
         
@@ -118,155 +114,186 @@
 
 
     "back-end": [{
-        "icono": "../assets/svg/illustrator.svg",
-        "percent": "90",
+        "percent": "60",
         "imageHeight": "30",
         "imageWidth": "30",
-        "imageSrc": "",
-        "title": "Illustrator"
+        "imageSrc": "../../assets/svg/typescript.svg",
+        "title": "Typescript"
     },
 
     {
-        "icono": "../assets/svg/illustrator.svg",
-        "percent": "90",
-        "imageHeight": "30",
-        "imageWidth": "30",
-        "imageSrc": "",
-        "title": "Illustrator"
+        "percent": "40",
+        "imageHeight": "20",
+        "imageWidth": "40",
+        "imageSrc": "../../assets/svg/php.svg",
+        "title": "PHP"
     },
 
     {
-        "icono": "../assets/svg/illustrator.svg",
-        "percent": "90",
-        "imageHeight": "30",
-        "imageWidth": "30",
-        "imageSrc": "",
-        "title": "Illustrator"
+        "percent": "40",
+        "imageHeight": "28",
+        "imageWidth": "28",
+        "imageSrc": "../../assets/svg/python.svg",
+        "title": "Python"
     },
 
     {
-        "icono": "../assets/svg/illustrator.svg",
-        "percent": "90",
+        "percent": "40",
         "imageHeight": "30",
-        "imageWidth": "30",
-        "imageSrc": "",
-        "title": "Illustrator"
+        "imageWidth": "25",
+        "imageSrc": "../../assets/svg/java.svg",
+        "title": "Java"
     }
 
     ],
 
     "herramientas": [
         {
-        "icono": "../assets/svg/illustrator.svg",
         "percent": "90",
         "imageHeight": "30",
         "imageWidth": "30",
-        "imageSrc": "",
+        "imageSrc": "../../assets/svg/illustrator.svg",
         "title": "Illustrator"
        },
 
     {
-        "icono": "../assets/svg/illustrator.svg",
         "percent": "90",
         "imageHeight": "30",
         "imageWidth": "30",
-        "imageSrc": "",
+        "imageSrc": "../../assets/svg/indesign.svg",
         "title": "InDesign"
     },
 
     {
-        "icono": "../assets/svg/illustrator.svg",
         "percent": "70",
         "imageHeight": "30",
         "imageWidth": "30",
-        "imageSrc": "",
+        "imageSrc": "../../assets/svg/photoshop.svg",
         "title": "Photoshop"
     },
 
     {
-        "icono": "../assets/svg/illustrator.svg",
         "percent": "70",
         "imageHeight": "30",
         "imageWidth": "30",
-        "imageSrc": "",
+        "imageSrc": "../../assets/svg/after-effects.svg",
         "title": "After effects"
     },
     
     {
-        "icono": "../assets/svg/illustrator.svg",
         "percent": "70",
         "imageHeight": "30",
         "imageWidth": "22",
-        "imageSrc": "",
+        "imageSrc": "../../assets/svg/figma.svg",
         "title": "Figma"
     },
 
     {
-        "icono": "../assets/svg/illustrator.svg",
         "percent": "90",
         "imageHeight": "28",
         "imageWidth": "30",
-        "imageSrc": "",
+        "imageSrc": "../../assets/svg/vs-code.svg",
         "title": "VS Code"
     },
 
     {
-        "icono": "../assets/svg/illustrator.svg",
         "percent": "80",
         "imageHeight": "26",
         "imageWidth": "32",
-        "imageSrc": "",
+        "imageSrc": "../../assets/svg/git.svg",
         "title": "Git"
     },
 
     {
-        "icono": "../assets/svg/illustrator.svg",
         "percent": "80",
         "imageHeight": "30",
         "imageWidth": "30",
-        "imageSrc": "",
+        "imageSrc": "../../assets/svg/github.svg",
         "title": "GitHub"
     }
 
     ]
 },
+    
+    "skillsHard": [
 
-    "skills-soft": {
-        "skill1": "Resolución de problemas",
-        "skill2": "Creatividad",
-        "skill3": "Trabajo en equipo",
-        "skill4": "Comunicación",
-        "skill5": "Gestión del tiempo",
-        "skill6": "Liderazgo"
-    },
+        {
+            "skill": "Diseño gráfico"
+        },
+
+        {
+            "skill": "Ilustración digital y tradicional"
+        },
+
+        {
+            "skill": "Diseño editorial"
+        },
+        
+        {
+            "skill": "Edición de videos"
+        }
+
+        ],
+
+    "skillsSoft": [
+
+        {
+            "skill": "Resolución de problemas"
+        },
+
+        {
+            "skill": "Creatividad"
+        },
+
+        {
+            "skill": "Trabajo en equipo"
+        },
+
+        {
+            "skill": "Comunicación"
+        },
+
+        {
+            "skill": "Gestión del tiempo"
+        },
+
+        {
+            "skill": "Liderazgo"
+        }
+    
+    ],
 
 
     "proyectos": [{
-        "img": "#",
-        "anioFinalInicio": "2023 - 2022/02",
-        "proyectoAndEmpresa": "Desarrollo web - TC Regional",
-        "descripcion": "Diseño y desarrollo de sitio web de noticias en Wordpress"
+        "img": "../../../assets/img/portafolio/portafolio-tc-regional.jpg",
+        "anioFinalMesInicio": "2022/02",
+        "proyectoAndEmpresa": "Sitio web - TC Regional",
+        "descripcion": "Diseño y desarrollo de sitio web de noticias en Wordpress",
+        "enlace": "https://www.tcregional.com"
     },
 
     {
-        "img": "#",
-        "anioFinalInicio": "2023 - 2022/02",
-        "proyectoAndEmpresa": "Desarrollo web - TC Regional",
-        "descripcion": "Diseño y desarrollo de sitio web de noticias en Wordpress"
+        "img": "../../../assets/img/portafolio/portafolio-tc-regional.jpg",
+        "anioFinalMesInicio": "2022/07",
+        "proyectoAndEmpresa": "Sitio web - Turismo 4000 Argentino",
+        "descripcion": "Diseño y desarrollo de sitio web de noticias en Wordpress",
+        "enlace": "https://www.turismo4000argentino.com.ar"
     },
 
     {
-        "img": "#",
-        "anioFinalInicio": "2023 - 2022/02",
-        "proyectoAndEmpresa": "Desarrollo web - TC Regional",
-        "descripcion": "Diseño y desarrollo de sitio web de noticias en Wordpress"
+        "img": "../../../assets/img/portafolio/portafolio-tc-regional.jpg",
+        "anioFinalMesInicio": "2022/06",
+        "proyectoAndEmpresa": "Página web web - Plomería Ya",
+        "descripcion": "Rediseño y desarrollo de página web de servicios",
+        "enlace": "https://www.plomeriayaa.com.ar"
     },
 
     {
-        "img": "#",
-        "anioFinalInicio": "2023 - 2022/02",
-        "proyectoAndEmpresa": "Desarrollo web - TC Regional",
-        "descripcion": "Diseño y desarrollo de sitio web de noticias en Wordpress"
+        "img": "../../../assets/img/portafolio/portafolio-tc-regional.jpg",
+        "anioFinalMesInicio": "2022/02",
+        "proyectoAndEmpresa": "Tienda online - HaeroSpray",
+        "descripcion": "Diseño y desarrollo de tienda online en Wordpress",
+        "enlace": "https://www.arthsy.com"
     }
 
     ]

@@ -17,6 +17,8 @@ import { SkillsBackEndComponent } from './components/skills-back-end/skills-back
 import { SkillsHerramientasComponent } from './components/skills-herramientas/skills-herramientas.component';
 import { PortfolioService } from './servicios/portfolio.service';
 import { HttpClientModule } from '@angular/common/http';
+import { SkillsHardComponent } from './components/skills-hard/skills-hard.component';
+import { SkillsSoftComponent } from './components/skills-soft/skills-soft.component';
 
 
 @NgModule({
@@ -32,7 +34,9 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     SkillsFrontEndComponent,
     SkillsBackEndComponent,
-    SkillsHerramientasComponent
+    SkillsHerramientasComponent,
+    SkillsHardComponent,
+    SkillsSoftComponent
   ],
   imports: [
     BrowserModule,

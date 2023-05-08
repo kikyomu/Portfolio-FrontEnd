@@ -67,3 +67,34 @@ body {
     font-size: 1rem!important;
 
   }
+
+
+  .btn-primary{
+    background-color: #ffffff!important;
+    color: var(--text-grey)!important;
+    padding: 0.6rem 4rem!important;
+    border: solid 1px var(--primary)!important;
+    margin-left: 0;
+    border-radius: 15px!important;
+}
+
+ .btn-primary:hover, .btn-primary:active{
+    background-color: var(--primary)!important;
+    color: #ffffff!important;
+    border: none!important;
+}
+
+  @media (max-width: 1024px){
+    .container {
+        max-width: 900px!important;
+    }
+    
+    }
+
+  @media (max-width: 768px){
+      .container {
+          max-width: 700px!important;
+      }
+      
+  }
+
