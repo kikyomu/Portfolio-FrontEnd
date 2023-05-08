@@ -1,43 +1,13 @@
 <ul class="lista-items-habilidades-icon d-flex">
 
-    <li class=" position-relative">
+    <li *ngFor="let skillsBack of skillsBackList" class="position-relative">
         <circle-progress
-        [percent]="60"
-        [imageHeight]= "30"
-        [imageWidth]= "30"
-        imageSrc= '../assets/svg/typescript.svg'
+        [percent]="skillsBack.percent"
+        [imageHeight]="skillsBack.imageHeight"
+        [imageWidth]="skillsBack.imageWidth"
+        [imageSrc]="skillsBack.imageSrc"
         ></circle-progress>
-        <p>Typescript</p>
-    </li>
-
-    <li class=" position-relative">
-        <circle-progress
-        [percent]="40"
-        [imageHeight]= "20"
-        [imageWidth]= "40"
-        imageSrc= '../assets/svg/php.svg'
-        ></circle-progress>
-        <p>PHP</p>
-    </li>
-
-    <li class=" position-relative">
-        <circle-progress
-        [percent]="40"
-        [imageHeight]= "28"
-        [imageWidth]= "28"
-        imageSrc= '../assets/svg/python.svg'
-        ></circle-progress>
-        <p>Python</p>
-    </li>
-
-    <li class=" position-relative">
-        <circle-progress
-        [percent]="40"
-        [imageHeight]= "30"
-        [imageWidth]= "25"
-        imageSrc= '../assets/svg/java.svg'
-        ></circle-progress>
-        <p>Java</p>
+        <p>{{skillsBack.title}}</p>
     </li>
 
 </ul>
