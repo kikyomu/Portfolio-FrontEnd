@@ -1,0 +1,13 @@
+<ul class="lista-items-habilidades-icon d-flex">
+
+    <li *ngFor="let skillsBack of skillsBackList" class="position-relative">
+        <circle-progress
+        [percent]="skillsBack.percent"
+        [imageHeight]="skillsBack.imageHeight"
+        [imageWidth]="skillsBack.imageWidth"
+        [imageSrc]="skillsBack.imageSrc"
+        ></circle-progress>
+        <p>{{skillsBack.title}}</p>
+    </li>
+
+</ul>

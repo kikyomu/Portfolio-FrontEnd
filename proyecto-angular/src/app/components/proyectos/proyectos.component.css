@@ -1,0 +1,28 @@
+/*--------------------------------------------------------------
+# Proyectos
+--------------------------------------------------------------*/
+#proyectos{
+    padding: 4rem 5rem!important;
+}
+
+.img-proyecto .fecha{
+    bottom: 0;
+    right: 0.78rem;
+    background-color: #ffffff;
+    padding: 0.2rem 1rem 0rem 1rem;
+    flex-direction: row;
+    width: 150px;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 10px 0 0px 0;
+}
+.img-proyecto .fecha i{
+    width: 30px;
+    color: var(--primary);
+}
+
+.img-proyecto .fecha p{
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 0.6rem;
+}

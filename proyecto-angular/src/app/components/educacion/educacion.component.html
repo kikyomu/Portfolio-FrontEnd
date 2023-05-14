@@ -1,0 +1,38 @@
+<!-- Sección Educación -->
+<section id="educacion" class="py-5">
+    <div class="container text-center">
+        <div class="row justify-content-md-center">
+
+            <div class="col-lg-12">
+                <h2 class="mb-4">Educación</h2>
+            </div>
+
+            <!-- Primer columna Educación -->
+            <div class="col-lg-12 row">
+
+                <!-- Educación 1 -->
+                <div *ngFor="let educacion of educacionList" class="col-lg-6 col-md-6 d-flex row experiencia">
+
+                    <div class="logo-experiencia col-lg-3">
+                        <img class="img-fluid" [src]="educacion.img" alt="" />
+                    </div>
+                    <div class="trabajo col-lg-9 col-sm-12 d-flex row justify-content-md-center">
+                        <ul>
+                            <li><h3>{{educacion.anioFinalInicio}}</h3></li>
+                            <li><h4>{{educacion.careerAndSchool}}</h4></li>
+                            <li><p>{{educacion.descripcion}}</p></li>
+                        </ul>
+                    </div>
+
+                </div><!-- Fin Educación 1 -->
+
+            </div>
+            <!-- Fin Primer columna Educación -->
+
+            
+
+        </div>
+    </div>
+
+</section>
+<!-- Fin sección Educación -->

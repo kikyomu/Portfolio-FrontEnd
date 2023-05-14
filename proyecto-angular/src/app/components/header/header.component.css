@@ -1,0 +1,112 @@
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+.container{
+    max-width: 100%!important;
+}
+header{
+    padding: 0 2rem;
+}
+.navbar ul li a{
+    color: var(--grey);
+}
+
+.menu-top{
+   background-color: var(--black);
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+.menu-top .navbar ul li{
+    margin-left: 0.5rem;
+}
+
+.menu-top .navbar ul li a, .menu-top button{
+    color: var(--primary);
+}
+
+.menu-top button{
+    margin-left: 3rem;
+}
+
+.menu-top .navbar ul li a:hover, .menu-top button:hover{
+    color: #ffffff;
+}
+
+.menu-top div.container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-derecha .navbar{
+    top: 30%;
+    position: fixed;
+    right: 2rem;
+}
+
+.menu-derecha ul li a:hover, .menu-derecha ul li a:active{
+    color: var(--acento);
+}
+
+
+@media (max-width: 992px){
+    
+  .menu-derecha .navbar{
+       right: 1.2rem;
+     }
+     
+ }
+
+@media (max-width: 768px){
+   .menu-derecha .navbar{
+    bottom: 0;
+    position: fixed;
+    top: unset;
+    right: unset;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: solid 1px var(--primary) ;
+    background-color: var(--secundary);
+}
+
+.menu-derecha .navbar ul li{
+    margin: 0 0.8rem;
+}
+   .menu-derecha .navbar-nav.flex-column {
+    flex-direction: row!important;
+}
+    
+}
+
+/*--------------------------------------------------------------
+# Modal
+--------------------------------------------------------------*/
+.modal{
+    color: var(--text-grey)!important;
+}
+form .btn-modal{
+    background-color: var(--primary);
+    color: #ffffff;
+    border: none;
+    margin-left: 0;
+}
+
+form .btn-modal:hover,form .btn-modal:active{
+    background-color: var(--grey);
+    color: #ffffff;
+    border: none;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-form-control-bg);
+    border-color: var(--acento)!important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #fcb52749!important;
+}
+
+.menu-top .btn-secondary {
+    color: #ffffff;
+}

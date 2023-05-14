@@ -1,0 +1,36 @@
+ /*--------------------------------------------------------------
+# Habilidades
+--------------------------------------------------------------*/
+#habilidades{
+    padding: 4rem 5rem!important;
+    background-color: #f6f6fd;
+}
+
+.lista-items-habilidades li{
+   padding-right: 1rem;
+}
+
+.lista-items-habilidades{
+    flex-wrap: wrap;
+}
+
+.lista-items-habilidades i, .lista-items-habilidades-icon i{
+    color: var(--primary);
+    line-height: 4.4rem;
+ }
+
+ .lista-items-habilidades li i{
+    color: var(--primary);
+    line-height: 1;
+    padding-right: 0.4rem;
+ }
+
+ .lista-items-habilidades-icon{
+    flex-wrap: wrap;
+}
+
+.lista-items-habilidades-icon li{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
