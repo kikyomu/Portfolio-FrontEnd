@@ -19,7 +19,16 @@ import { PortfolioService } from './servicios/portfolio.service';
 import { HttpClientModule } from '@angular/common/http';
 import { SkillsHardComponent } from './components/skills-hard/skills-hard.component';
 import { SkillsSoftComponent } from './components/skills-soft/skills-soft.component';
+import { IniciarSesionComponent } from './components/iniciar-sesion/iniciar-sesion.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { RouterModule, Routes } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
+const routes: Routes = [
+  {path:'portfolio',component:PortfolioComponent},
+  {path:'iniciar-sesion',component:IniciarSesionComponent},
+  {path:'',redirectTo:'iniciar-sesion',pathMatch:'full'}
+];
 
 @NgModule({
   declarations: [
@@ -36,11 +45,16 @@ import { SkillsSoftComponent } from './components/skills-soft/skills-soft.compon
     SkillsBackEndComponent,
     SkillsHerramientasComponent,
     SkillsHardComponent,
-    SkillsSoftComponent
+    SkillsSoftComponent,
+    IniciarSesionComponent,
+    PortfolioComponent
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RouterModule.forRoot(routes),
+    ReactiveFormsModule,
     HttpClientModule,
     // Specify ng-circle-progress as an import
     NgCircleProgressModule.forRoot({
@@ -54,14 +68,11 @@ import { SkillsSoftComponent } from './components/skills-soft/skills-soft.compon
       animationDuration: 300,
       animation: true,
       showUnits: false,
-
       backgroundPadding: 7,
-      /* imageSrc: "../assets/svg/html5.svg" */ 
       showImage: true,
       showBackground: false
       
     })
-
   ],
   providers: [PortfolioService],
   bootstrap: [AppComponent]
